@@ -14,7 +14,7 @@ info:
     url: https://fivestarsrental.com/license/
   version: "1.0"
 servers:
-  - url: https://a3e96a73-1e47-4b87-a348-06ebacb50641.mock.pstmn.io
+  - url: https://cfaba586-1ae7-4a52-82e9-43ac2e9772a8.mock.pstmn.io
     description: Postman mock server
 tags:
   - name: Categories
@@ -48,7 +48,7 @@ paths:
                 items:
                   $ref: '#/components/schemas/Category'
               example:
-                - catogoryId: 1
+                - categoryId: 1
                   name: sedan
                 - categoryId: 2
                   name: coupe
@@ -734,3 +734,4 @@ components:
             read: Read only access
             write: Read Write access
             admin: Admin access 
+
